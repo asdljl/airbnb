@@ -1,9 +1,11 @@
-import React, { memo } from 'react'
+import React, {memo, useEffect, useState} from 'react'
+import JLRequest from "@/services"
 
 const Home  = memo(() => {
+
   return (
     <div>
-      HOME
+
     </div>
   )
 })
